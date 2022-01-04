@@ -11,11 +11,12 @@ Version         : 1.10
      CSS INDEX
     ==============
     1. Theme default css
-    2. header-area
-    3. dream-area
+    2. header area
+    3. dream area
+    4. experience area 
+    5. footer area
 
 -----------------------------------------------------*/
-/* font import */
 
 /*---- Theme default css
 ============================================= */
@@ -83,12 +84,17 @@ h6 {
     display: inline-block;
     border-radius: 10px;
     margin-top: 20px;
+    transition: all .5s ease;
+}
+.section-btn:hover {
+    background: linear-gradient(90deg, rgba(196,10,92,1) 0%, rgba(204,207,90,1) 100%);
 }
 /*---- header area
 ============================================= */
 .header-area {
     background-image: url(/images/top-banner.png);
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    padding: 50px 0; 
 }
 .header-area .title-text-area {
     width: 50%;
@@ -134,6 +140,7 @@ h6 {
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding: 50px 0;
 }
 .dream-area .container {
     background-color: transparent;
@@ -155,7 +162,6 @@ h6 {
 }
 .dream-area  .title-text-area p {
     font-size: 17px;
-    text-transform: capitalize;
     color: rgb(103, 97, 97);
     margin-top: 20px;
 }
@@ -166,4 +172,65 @@ h6 {
 }
 .dream-area .title-img-area img{
     width: 100%;
+}
+/*---- experience area 
+============================================= */
+.experience-area {
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 50px 0;
+}
+.experience-area .container{
+    background-color: transparent;
+    justify-content: space-around;
+}
+.experience-area h2 {
+    text-align: center;
+    font-size: 55px;
+    text-transform: capitalize;
+}
+.experience-area .service {
+    width: 45%;
+    margin-top: 36px;
+    padding: 48px 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    min-height: 400px;
+    border-radius: 5px;
+}
+.experience-area .service h3 {
+    font-size: 40px;
+}
+.experience-area .service h4 {
+    font-size: 25px;
+    color: orange;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.experience-area .service p {
+    font-size: 17px;
+    color: rgb(103, 97, 97);
+    margin-top: 20px;
+
+}
+#border-left {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,red);
+    border-image-slice: 1;
+}
+#border-right {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,orange);
+    border-image-slice: 1;
+}
+/*---- footer area
+============================================= */
+.footer-area {
+    background-color: #fff;
+    padding: 50px 0;
+}
+.footer-area p {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(103, 97, 97);
 }

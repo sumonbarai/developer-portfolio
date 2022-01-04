@@ -1,0 +1,169 @@
+/*----------------------------------------------------
+
+Template Name   : personal portfolio templates
+Description     : this free and github project template
+Author          : sumon barai
+Email          : sumonbarai78@gmail.com
+Version         : 1.10
+
+------------------------------------------------------
+    ==============
+     CSS INDEX
+    ==============
+    1. Theme default css
+    2. header-area
+    3. dream-area
+
+-----------------------------------------------------*/
+/* font import */
+
+/*---- Theme default css
+============================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Fira Code', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/* input:focus,
+textarea:focus{
+    outline: 0;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+} */
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fira Code', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.flex-container {
+    display: flex;
+}
+.section-btn {
+    background-image: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 96%);
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/*---- header area
+============================================= */
+.header-area {
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat; 
+}
+.header-area .title-text-area {
+    width: 50%;
+    padding: 20px;
+}
+.header-area .title-text-area h1{
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.header-area .title-text-area h2 {
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-top: -18px;
+}
+.header-area .title-text-area h2 span{
+    color: orange;  
+}
+
+.header-area .title-text-area h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 70px;
+}
+.header-area .title-text-area p {
+    font-size: 17px;
+    text-transform: capitalize;
+    color: rgb(103, 97, 97);
+    margin-top: 20px;
+}
+.header-area .title-img-area {
+    width: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.header-area .title-img-area img{
+    width: 100%;
+}
+
+/*---- dream area
+============================================= */
+.dream-area {
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-area .container {
+    background-color: transparent;
+}
+.dream-area .title-text-area {
+    width: 50%;
+    padding: 20px;
+}
+
+.dream-area .title-text-area h2 {
+    font-size: 55px;
+    text-transform: capitalize;
+    padding-top: 85px;
+}
+.dream-area  .title-text-area h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 16px;
+}
+.dream-area  .title-text-area p {
+    font-size: 17px;
+    text-transform: capitalize;
+    color: rgb(103, 97, 97);
+    margin-top: 20px;
+}
+.dream-area  .title-img-area {
+    width: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.dream-area .title-img-area img{
+    width: 100%;
+}
